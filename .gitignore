@@ -1,4 +1,8 @@
+mock/errors.txt
 node_modules/
+assets/
+**/.vscode/
+.expo-shared/
 .expo/
 npm-debug.*
 *.jks
