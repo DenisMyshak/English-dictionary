@@ -12,7 +12,7 @@ export default function Home() {
     const [newWord, setNewWord] = useState('');
 
     const showWords = (words) => {
-        return wordsData.map((word) => {
+        return words.map((word) => {
             return (
                 <ListItem key={word.id} name={word.name} />
             );
